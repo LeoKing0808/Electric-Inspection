@@ -1,0 +1,33 @@
+{
+  "note": "These thresholds are calibrated from the current dataset's apparent image-plane tilt distribution. They are not physical lean thresholds.",
+  "splits": {
+    "train": {
+      "samples": 3768,
+      "median_abs_deg": 2.8567,
+      "p90_abs_deg": 11.6765,
+      "p95_abs_deg": 16.4052,
+      "p97_abs_deg": 19.9432,
+      "p99_abs_deg": 28.0842
+    },
+    "valid": {
+      "samples": 814,
+      "median_abs_deg": 2.6082,
+      "p90_abs_deg": 12.4105,
+      "p95_abs_deg": 18.73,
+      "p97_abs_deg": 22.44,
+      "p99_abs_deg": 30.6662
+    }
+  },
+  "global": {
+    "samples": 4582,
+    "median_abs_deg": 2.8073,
+    "p90_abs_deg": 12.0058,
+    "p95_abs_deg": 16.5332,
+    "p97_abs_deg": 20.384,
+    "p99_abs_deg": 28.9932
+  },
+  "recommended_thresholds": {
+    "warning_deg": 12.0058,
+    "critical_deg": 20.384
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "task_id": "demo-combined-001",
+  "image_url": "https://example.com/demo/power-inspection.jpg",
+  "status": "success",
+  "message": "ok",
+  "elapsed_ms": 734.15,
+  "image": {
+    "width": 1120,
+    "height": 1494,
+    "download_bytes": 276304
+  },
+  "results": {
+    "nest_detection": {
+      "task_name": "nest_detection",
+      "count": 1,
+      "class_counts": {
+        "nest": 1
+      },
+      "detections": [
+        {
+          "nest_id": 1,
+          "class_id": 0,
+          "class_name": "nest",
+          "confidence": 0.8875,
+          "bbox": {
+            "x1": 390,
+            "y1": 232,
+            "x2": 669,
+            "y2": 458
+          }
+        }
+      ]
+    },
+    "tower_tilt_detection": {
+      "task_name": "tower_tilt_detection",
+      "count": 1,
+      "warning_threshold_deg": 12.0058,
+      "critical_threshold_deg": 20.384,
+      "summary": {
+        "normal": 1,
+        "warning": 0,
+        "critical": 0,
+        "unreliable": 0
+      },
+      "detections": [
+        {
+          "tower_id": 1,
+          "status": "normal",
+          "detector_confidence": 0.6743,
+          "tilt_confidence": 0.8781,
+          "apparent_tilt_deg": 9.4272,
+          "abs_apparent_tilt_deg": 9.4272,
+          "centerline_points": 338,
+          "mean_residual_px": 33.5967,
+          "bbox": {
+            "x1": 157,
+            "y1": 76,
+            "x2": 752,
+            "y2": 1356
+          }
+        }
+      ]
+    }
+  }
+}

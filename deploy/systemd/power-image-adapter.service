@@ -1,0 +1,15 @@
+[Unit]
+Description=Power Image Adapter Service
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/power-inspection
+EnvironmentFile=/opt/power-inspection/deploy/systemd/power-image-adapter.env
+ExecStart=/opt/power-inspection/.venv/bin/python /opt/power-inspection/apps/image_adapter/run.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

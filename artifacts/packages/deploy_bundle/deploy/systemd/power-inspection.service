@@ -1,0 +1,15 @@
+[Unit]
+Description=Power Inspection Service
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/power-inspection
+EnvironmentFile=/opt/power-inspection/deploy/systemd/power-inspection.env
+ExecStart=/opt/power-inspection/.venv/bin/python /opt/power-inspection/run_service.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

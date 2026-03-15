@@ -1,0 +1,13 @@
+﻿image_path,tower_id,source,bbox_x1,bbox_y1,bbox_x2,bbox_y2,apparent_tilt_deg,abs_apparent_tilt_deg,confidence,status,centerline_points,mean_residual_px
+tower_tilt_detection\test\images\000029_jpg.rf.345c0061ede7509e121b318a933b3510.jpg,1,label,161,26,573,449,-15.0248,15.0248,0.7767,warning,108,26.1526
+tower_tilt_detection\test\images\000052_jpg.rf.407bebdf564fbe2de3de38a689cda0c4.jpg,1,label,135,23,476,799,4.4731,4.4731,0.9316,normal,190,10.8044
+tower_tilt_detection\test\images\000052_jpg.rf.407bebdf564fbe2de3de38a689cda0c4.jpg,2,label,434,572,486,735,2.1533,2.1533,0.892,normal,39,3.2409
+tower_tilt_detection\test\images\000052_jpg.rf.407bebdf564fbe2de3de38a689cda0c4.jpg,3,label,553,688,592,736,5.3522,5.3522,0.6666,normal,8,0.4046
+tower_tilt_detection\test\images\000052_jpg.rf.407bebdf564fbe2de3de38a689cda0c4.jpg,4,label,578,682,599,737,1.3885,1.3885,0.7503,normal,9,0.1402
+tower_tilt_detection\test\images\000055_jpg.rf.838b05f8ffe1d123afddb39ee09baa73.jpg,1,label,156,107,333,799,-0.3488,0.3488,0.9685,normal,136,2.583
+tower_tilt_detection\test\images\000056_jpg.rf.60fc48687f8bf4cf10139efaaac04d61.jpg,1,label,78,216,269,447,3.3712,3.3712,0.8838,normal,63,4.4702
+tower_tilt_detection\test\images\000056_jpg.rf.60fc48687f8bf4cf10139efaaac04d61.jpg,2,label,356,235,484,599,-10.6769,10.6769,0.8,normal,82,14.4219
+tower_tilt_detection\test\images\000056_jpg.rf.60fc48687f8bf4cf10139efaaac04d61.jpg,3,label,487,293,597,590,4.2494,4.2494,0.9777,normal,40,1.1219
+tower_tilt_detection\test\images\000056_jpg.rf.60fc48687f8bf4cf10139efaaac04d61.jpg,4,label,582,312,668,585,-2.4223,2.4223,0.9382,normal,49,2.4232
+tower_tilt_detection\test\images\000056_jpg.rf.60fc48687f8bf4cf10139efaaac04d61.jpg,5,label,642,342,735,574,3.2083,3.2083,0.8608,normal,39,5.9561
+tower_tilt_detection\test\images\000147_jpg.rf.fb39ef7452ac051467a2f904d9f1786b.jpg,1,label,141,256,361,799,-0.7892,0.7892,0.9778,normal,107,2.2515
